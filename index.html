@@ -11,6 +11,7 @@
     </head>
     <body>
         <div id="root">
+            <button @click="createList" >create</button>
             <ol>
                 <li v-for="element in emailList" > {{element}} </li>
             </ol>
